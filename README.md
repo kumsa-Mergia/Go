@@ -1,5 +1,5 @@
 GoLang Learning Repository
-![My Image](go.png)
+![My Image]([go.png](https://github.com/kumsa-Mergia/GoLang/blob/main/go.png))
 
 
 This repository is dedicated to my journey of learning the Go programming language. It contains various practice exercises, code snippets, and small projects that help me build a solid understanding of Go’s syntax, features, and best practices.
