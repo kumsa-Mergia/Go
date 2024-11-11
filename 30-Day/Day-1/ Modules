@@ -1,0 +1,9 @@
+Modules
+
+    Definition: A module is a collection of Go packages that are versioned together as a unit. Modules allow for dependency management and enable sharing of code across different projects.
+    Creating a Module:
+        You initialize a module with go mod init <module-name>, which creates a go.mod file that defines the module path and dependencies.
+
+go mod init github.com/username/projectname
+
+Managing Dependencies: Go’s module system manages dependencies automatically by tracking versions and package sources in the go.mod file. The go.sum file records checksums to ensure integrity.
