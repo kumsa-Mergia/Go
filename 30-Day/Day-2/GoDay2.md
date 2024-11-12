@@ -67,7 +67,7 @@ var language string = "Go"
 ```
 Complex Types
 
-    Arrays: Fixed-size list of elements of the same type.
+Arrays: Fixed-size list of elements of the same type.
 ```go
 var arr [3]int = [3]int{1, 2, 3}
 ```
@@ -91,6 +91,8 @@ Structs: Custom data types, like classes without methods.
 
 Summary
 
-    Use var or := to declare variables.
-    Use const for constants.
-    Understand Go's basic data types for efficient memory and type usage.
+Use var or := to declare variables.
+
+Use const for constants.
+
+Understand Go's basic data types for efficient memory and type usage.
