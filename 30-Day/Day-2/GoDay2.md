@@ -18,11 +18,12 @@ func main() { // the main function, where execution begins
 
 Variables in Go are declared using the var keyword, but Go also allows implicit declaration using := in function bodies.
 
-    Explicit Declaration:
+Explicit Declaration:
+
 ```go
 var x int = 10
 var y string = "Hello"
-
+```
 Type Inference:
 
 ```go
@@ -54,12 +55,10 @@ const a, b = 5, "constant string"
 
 Go has several built-in data types:
 Basic Types
-```go
     Integers: int, int8, int16, int32, int64 and their unsigned counterparts (uint, uint8, etc.)
     Floating Points: float32, float64
     Boolean: bool
     Strings: string
-```
 ```go
 var x int = 10         // integer
 var pi float64 = 3.14  // float
@@ -87,7 +86,7 @@ Structs: Custom data types, like classes without methods.
         Age  int
     }
 
-    var person = Person{Name: "Alice", Age: 25}
+    var person = Person{Name: "Kumsa", Age: 24}
 ```
 
 Summary
