@@ -35,14 +35,17 @@ default:
 The for loop in Go is the only loop construct. It can be used in three ways: as a traditional for loop (with initialization, condition, and post statement), as a while loop, or as an infinite loop.
 
 Syntax:
+
 // Traditional for loop
 ```go
 
 for i := 0; i < 5; i++ {
     fmt.Println(i)
 }
-
+```
 // While loop (no initialization or post statement)
+
+```go
 i := 0
 for i < 5 {
     fmt.Println(i)
