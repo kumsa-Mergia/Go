@@ -26,7 +26,9 @@ func main() {
 	}
 
 	err = formattedErrorExample("")
+
 	if err != nil {
 		fmt.Println("Formatted Error:", err)
 	}
+
 }

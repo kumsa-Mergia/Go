@@ -6,11 +6,13 @@ import (
 )
 
 func wrappedErrorExample() error {
+
 	baseErr := errors.New("base error")
 	return fmt.Errorf("wrapped error: %w", baseErr) // %w wraps the error
 }
 
 func main() {
+
 	err := wrappedErrorExample()
 	fmt.Println("Error:", err)
 

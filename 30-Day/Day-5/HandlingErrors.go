@@ -4,6 +4,7 @@ import "fmt"
 
 func safeDivision(a, b int) {
 	defer func() {
+
 		if r := recover(); r != nil {
 			fmt.Println("Recovered from panic:", r)
 		}
@@ -17,6 +18,7 @@ func safeDivision(a, b int) {
 }
 
 func main() {
+
 	safeDivision(10, 2)
 	safeDivision(10, 0)
 	fmt.Println("Program continues...")
