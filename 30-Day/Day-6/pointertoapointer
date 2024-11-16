@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	a := 42
+	p := &a  // Pointer to 'a'
+	pp := &p // Pointer to pointer 'p'
+
+	fmt.Println("Value of a:", a)
+	fmt.Println("Value via p:", *p)
+	fmt.Println("Value via pp:", **pp) // Double dereference
+}
